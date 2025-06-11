@@ -6,7 +6,7 @@ const Resume = () => {
       {/* PDF Viewer */}
       <div className="w-full h-[90vh] mb-6 border shadow">
         <iframe
-          src="/Jenifer_Resume_3d.pdf"
+          src="src/assets//Jenifer_Resume_3d.pdf"
           title="Resume"
           className="w-full h-full"
           frameBorder="0"
