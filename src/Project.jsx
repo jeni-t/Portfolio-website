@@ -6,8 +6,8 @@ import movie from '../public/movie.jpeg';
 import e_shopping from '../public/e-shopping.jpg';
 import shopping from '../public/shopping.jpg';
 import Budget from '../public/Budget.jpg';
-// import User_Authentication from '../public/User-Authentication.jpg';
-// import User_Authentication from '../public/User-Authentication.jpg';
+import flight_booking from '../public/flight-booking.jpg';
+import forget_password from '../public/forget-password.jpg';
 
 
 const Project =()=>{
@@ -17,7 +17,7 @@ return(
         <div className="py-10">
             <p className="text-center font-bold text-xl">Flight Ticket Booking</p>
         <a href="https://regal-sable-efac67.netlify.app/">
-    <img src="flight-booking.jpg" className="my-4 mx-8 h-70 w-70 border-6 border-gray-700"></img>
+    <img src={flight_booking} className="my-4 mx-8 h-70 w-70 border-6 border-gray-700"></img>
     </a>
     <p className="text-center text-gray font-semibold">Flight Ticket Booking Website. 
     integrating with airline databases to access flight schedules, pricing information, and seat availability
@@ -28,7 +28,7 @@ return(
 <div className="py-10">
             <p className="text-center font-bold text-xl">Forget password</p>
         <a href="https://strong-valkyrie-67df57.netlify.app/">
-    <img src="forget-password.jpg" className="my-4 py-4 mx-8 h-70 w-70 border-6 border-gray-700"></img>
+    <img src={forget_password} className="my-4 py-4 mx-8 h-70 w-70 border-6 border-gray-700"></img>
     </a>
     <p className="text-center text-gray font-semibold">Forget password page ask your registered email id.
     once you enter it send a password rest link to your email id. you can click and rest your password</p>
