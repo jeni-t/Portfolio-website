@@ -1,3 +1,5 @@
+import ai_girl from '../public/ai-girl.jpg';
+
 const About = () =>{
 return(
 <>
@@ -10,7 +12,7 @@ return(
         <div className="flex flex-row gap-12">
 <div className="flex-shrink-0">
           <img
-            src="/ai-girl.jpg"
+            src={ai_girl}
             alt="Jenifer"
             className="w-[300px] h-[350px] border-white border-4 object-cover rounded shadow-md"
           />

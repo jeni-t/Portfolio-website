@@ -1,3 +1,5 @@
+import Jenifer_Resume_3d from '../public/Jenifer_Resume_3d.pdf';
+
 const Resume = () => {
   return (
     <div className="p-8 bg-white w-full min-h-screen">
@@ -6,7 +8,7 @@ const Resume = () => {
       {/* PDF Viewer */}
       <div className="w-full h-[90vh] mb-6 border shadow">
         <iframe
-          src="src/assets/Jenifer_Resume_3d.pdf"
+          src={Jenifer_Resume_3d}
           title="Resume"
           className="w-full h-full"
           frameBorder="0"

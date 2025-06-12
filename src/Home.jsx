@@ -1,3 +1,5 @@
+import girl from '../public/ai-girl-image.jpg';
+
 const Home = () =>{
 return(
 <>
@@ -8,7 +10,7 @@ return(
 </div>
 </div> */}
 <div className="relative">
-  <img src="ai-girl-image.jpg" className="max-w-full h-[110vh] object-cover opacity-60" alt="Background" />
+  <img src={girl} className="max-w-full h-[110vh] object-cover opacity-60" alt="Background" />
 
   <div className="absolute inset-0 flex flex-col items-start justify-center px-10 text-white">
     <h1 className="text-black text-4xl font-bold">Jenifer V</h1>
