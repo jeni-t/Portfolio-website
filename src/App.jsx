@@ -79,7 +79,7 @@ function App() {
     <div className="flex h-screen">
       {/* Sidebar - stays fixed */}
       <aside className="w-1/4 bg-[#0f172a] text-white p-6 flex flex-col items-center overflow-y-auto fixed h-screen">
-        <img src="src/assets/jeni.jpeg" className="w-28 h-28 rounded-full border-8 border-gray-600" />
+        <img src="/public/jeni.jpeg" className="w-28 h-28 rounded-full border-8 border-gray-600" />
         <p className="py-4 font-bold text-2xl">Jenifer V</p>
 
         <SidebarLink to="/" label="Home" icon="home.jpg" />
