@@ -34,7 +34,7 @@ function App() {
         <SidebarLink to="/about" label="About" icon={about} />
         <SidebarLink to="/resume" label="Resume" icon={resume} />
         <SidebarLink to="/skills" label="Skills" icon={skills} />
-        <SidebarLink to="https://github.com/jeni-t?tab=repositories" label="GitHub" icon={github} />
+        <SidebarLink to="https://github.com/jeni-t?tab=repositories" target="_blank" rel="noopener noreferrer" label="GitHub" icon={github} />
         <SidebarLink to="/project" label="Project" icon={project} />
         <SidebarLink to="/contact" label="Contact" icon={contact} />
         

@@ -14,9 +14,8 @@ const skills = [
 
 const Skills = () => {
   return (
-    <div className="bg-gray-100 px-8 py-12">
-      <h2 className="text-3xl font-bold text-black mb-2">Skills</h2>
-      <p className="text-gray-700 mb-8">Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+    <div className="bg-white px-8 py-12">
+      <h2 className="text-3xl font-bold text-black mb-8">Skills</h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         {skills.map((skill, index) => (
@@ -27,7 +26,7 @@ const Skills = () => {
             </div>
             <div className="w-full bg-gray-200 rounded-full h-2.5">
               <div
-                className="bg-sky-500 h-2.5 rounded-full"
+                className="bg-[#0f172a] h-2.5 rounded-full"
                 style={{ width: `${skill.level}%` }}
               ></div>
             </div>

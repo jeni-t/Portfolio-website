@@ -1,11 +1,19 @@
-import ai_girl from '../public/ai-girl.jpg';
+import ai_girl from '../public/jeni_1.png';
+import dob from '../public/dob.png';
+import age from '../public/age.png';
+import degree from '../public/degree.jpg';
+import phone from '../public/contact.jpg';
+import email from '../public/email.png';
+import city from '../public/city.jpg';
+import status from '../public/status.jpg';
+import experience from '../public/experience.jpg';
 
 const About = () =>{
 return(
 <>
-<div className="py-10 bg-gray-200 w-full">
+<div className="py-2 bg-white w-full">
     <p className="text-3xl font-bold text-center">About</p>
-    <p className="py-6">Hi I am jenifer. 3d software developer I have 3 years experience in 3d software development. 
+    <p className="py-6 font-medium text-lg text-blue-800">Hi I am jenifer. 3d software developer I have 3 years experience in 3d software development. 
         Babylonjs framework. Currently i am working in dental RND project.  I have 3 years experience in Javascript,  
         Html5, Css, TailwindCss,  and python 2 years experience  in Php, Mysql, and 1 year experience in 
         Reactjs, nodejs, mongodb i have knowledge of c, c++,</p>
@@ -14,27 +22,65 @@ return(
           <img
             src={ai_girl}
             alt="Jenifer"
-            className="w-[300px] h-[350px] border-white border-4 object-cover rounded shadow-md"
+            className="w-86 h-94 border-black border-4 object-cover rounded shadow-md"
           />
         </div>
 <div className="">
 <p className="text-xl font-bold text-center">3D Web Developer & Full Stack Developer</p>
 <p className="my-4">Hi I am jenifer. 3d software developer I have 3 years experience in 3d software development. 
         Babylonjs framework. Currently i am working in dental RND project</p>
-        <div className="grid grid-cols-2">
-            <p className="py-4"><span className="font-bold text-lg mx-2">🎂 Date of Birth:</span>12/06/2000</p>
-            <p className="py-4"><span className="font-bold text-lg mx-2">🎯 Age:</span>25</p>
-            <p className="py-4"><span className="font-bold text-lg mx-2">🎓 Degree:</span>B.com(CA)</p>
-            <p className="py-4"><span className="font-bold text-lg mx-2">📞 Phone:</span>+91 8778089525</p>
-            <p className="py-4"><span className="font-bold text-lg mx-2">✉️ Email:</span>jenivijay19@gmail.com</p>
-            <p className="py-4"><span className="font-bold text-lg mx-2">📍 City:</span>Rajapalayam</p>
-            <p className="py-4"><span className="font-bold text-lg mx-2">🎯 Status:</span>Married</p>
-            <p className="py-4"><span className="font-bold text-lg mx-2">💼 Experience:</span>3</p>
-        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-10">
+  <p className="flex items-center gap-3">
+    <img src={dob} alt="Jenifer" className="w-8 h-8 rounded-full border-black border-2" />
+    <span className="font-bold text-lg">Date of Birth:</span>
+    <span className="font-extrabold text-indigo-900">12/06/2000</span>
+  </p>
+
+  <p className="flex items-center gap-3">
+    <img src={age} alt="Jenifer" className="w-8 h-8 rounded-full border-black border-2" />
+    <span className="font-bold text-lg">Age:</span>
+    <span className="font-extrabold text-indigo-900">25</span>
+  </p>
+
+  <p className="flex items-center gap-3">
+    <img src={degree} alt="Jenifer" className="w-8 h-8 rounded-full border-black border-2" />
+    <span className="font-bold text-lg">Degree:</span>
+    <span className="font-extrabold text-indigo-900">B.com(CA)</span>
+  </p>
+
+  <p className="flex items-center gap-3">
+    <img src={phone} alt="Jenifer" className="w-8 h-8 rounded-full border-black border-2" />
+    <span className="font-bold text-lg">Phone:</span>
+    <span className="font-extrabold text-indigo-900">+91 8778089525</span>
+  </p>
+
+  <p className="flex items-center gap-3">
+    <img src={email} alt="Jenifer" className="w-8 h-8 rounded-full border-black border-2" />
+    <span className="font-bold text-lg">Email:</span>
+    <span className="font-extrabold text-indigo-900">jenivijay19@gmail.com</span>
+  </p>
+
+  <p className="flex items-center gap-3">
+    <img src={city} alt="Jenifer" className="w-8 h-8 rounded-full border-black border-2" />
+    <span className="font-bold text-lg">City:</span>
+    <span className="font-extrabold text-indigo-900">Rajapalayam</span>
+  </p>
+
+  <p className="flex items-center gap-3">
+    <img src={status} alt="Jenifer" className="w-8 h-8 rounded-full border-black border-2" />
+    <span className="font-bold text-lg">Status:</span>
+    <span className="font-extrabold text-indigo-900">Married</span>
+  </p>
+
+  <p className="flex items-center gap-3">
+    <img src={experience} alt="Jenifer" className="w-8 h-8 rounded-full border-black border-2" />
+    <span className="font-bold text-lg">Experience:</span>
+    <span className="font-extrabold text-indigo-900">3</span>
+  </p>
+</div>
+
 </div>
 </div>
-<p className="my-4">Hi I am working Neural hive tech Pvt Ltd. as 3d software developer. It is a dental software. User
-know the results in the demo session. and compare their before and after results in before the treatment</p>
 </div>
 </>
 )
