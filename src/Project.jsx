@@ -8,126 +8,224 @@ import shopping from '../public/shopping.jpg';
 import Budget from '../public/Budget.jpg';
 import flight_booking from '../public/flight-booking.jpg';
 import forget_password from '../public/forget-password.jpg';
+import Coaching from '../public/Coaching.jpg';
+import tour from '../public/tour.jpeg';
 
 
 const Project =()=>{
 return(
     <div className="grid grid-cols-3">
       
-        <div className="py-10">
-            <p className="text-center font-bold text-xl">Flight Ticket Booking</p>
-        <a href="https://regal-sable-efac67.netlify.app/" target="_blank">
-    <img src={flight_booking} className="my-4 mx-8 h-70 w-70 border-6 border-gray-700"></img>
-    </a>
-    <div className="grid grid-cols-2 gap-4 my-6 w-70 mx-10">
-    <Link to="https://github.com/jeni-t/FlightTicket_Booking_react_Allapi" target="_blank"
-       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend</Link>
-    <Link to ="https://github.com/jeni-t/FlightTicket_Booking_node_Allapi" target="_blank"
-    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend</Link>
-</div>
+       <div className="py-10">
+  <p className="text-center font-bold text-xl">Flight Ticket Booking</p>
+
+  <a href="https://regal-sable-efac67.netlify.app/" target="_blank" className="relative group inline-block mx-8 my-4">
+    {/* Image */}
+    <img
+      src={flight_booking}
+      className="h-70 w-70 border-6 border-gray-700 transition-opacity duration-300 group-hover:opacity-50"
+    />
+
+    {/* Overlay text */}
+    <span className="absolute inset-0 flex items-center justify-center text-black text-xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      Deployed URL
+    </span>
+  </a>
+
+  <div className="grid grid-cols-2 gap-4 my-2 w-70 mx-8">
+    <Link
+      to="https://github.com/jeni-t/FlightTicket_Booking_react_Allapi"
+      target="_blank"
+      className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center"
+    >
+      Frontend Git 
+    </Link>
+    <Link
+      to="https://github.com/jeni-t/FlightTicket_Booking_node_Allapi"
+      target="_blank"
+      className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center"
+    >
+      Backend Git
+    </Link>
+  </div>
 </div>
 
-<div className="py-10">
-            <p className="text-center font-bold text-xl">Forget password</p>
-        <a href="https://strong-valkyrie-67df57.netlify.app/">
-    <img src={forget_password} className="my-4 py-4 mx-8 h-70 w-70 border-6 border-gray-700"></img>
-    </a>
-    <div className="grid grid-cols-2 gap-2 my-6 w-70 mx-10">
-    <Link to="https://github.com/jeni-t/password-rest" target="_blank"
-       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend</Link>
-    <Link to ="https://github.com/jeni-t/Password_Reset" target="_blank"
-    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend</Link>
-</div>
+
+  <div className="py-10">
+  <p className="text-center font-bold text-xl">Forget password</p>
+
+  <a href="https://strong-valkyrie-67df57.netlify.app/" target="_blank" className="relative group inline-block mx-8 my-4">
+    {/* Image */}
+    <img
+      src={forget_password}
+      className="h-70 w-70 border-6 border-gray-700 transition-opacity duration-300 group-hover:opacity-50"
+    />
+
+    {/* Overlay text */}
+    <span className="absolute inset-0 flex items-center justify-center text-black text-xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      Deployed URL
+    </span>
+  </a>
+
+  <div className="grid grid-cols-2 gap-4 my-2 w-70 mx-8">
+    <Link
+      to="https://github.com/jeni-t/password-rest"
+      target="_blank"
+      className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center"
+    >
+      Frontend Git
+    </Link>
+    <Link
+      to="https://github.com/jeni-t/Password_Reset"
+      target="_blank"
+      className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center"
+    >
+      Backend Git
+    </Link>
+  </div>
 </div>
 
 <div className="py-10">
             <p className="text-center font-bold text-xl">userAuthenticationVerify</p>
-        <a href="https://iridescent-raindrop-ce9a16.netlify.app/">
-    <img src={User_Authentication} className="my-4 py-4 mx-8 h-70 w-70 border-6 border-gray-700"></img>
+        <a href="https://iridescent-raindrop-ce9a16.netlify.app/" target="_blank" className="relative group inline-block mx-8 my-4">
+    <img src={User_Authentication} className="h-70 w-70 border-6 border-gray-700 transition-opacity duration-300 group-hover:opacity-50"></img>
+    <span className="absolute inset-0 flex items-center justify-center text-black text-xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      Deployed URL
+    </span>
     </a>
-    <div className="grid grid-cols-2 gap-2 my-6 w-70 mx-26">
+    <div className="grid grid-cols-2 gap-4 my-2 w-70 mx-26">
     {/* <Link to="https://github.com/jeni-t/React_Api" target="_blank"
-       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend</Link> */}
+       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend Git</Link> */}
     <Link to ="https://github.com/jeni-t/userAuthenticationVerify" target="_blank"
-    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend</Link>
+    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend Git</Link>
 </div>
 </div>
 
 <div className="py-10">
             <p className="text-center font-bold text-xl">Recipe App</p>
-        <a href="https://astonishing-malabi-6da860.netlify.app/">
-    <img src={recipe} className="my-4 mx-8 h-70 w-70 border-6 border-gray-700"></img>
+        <a href="https://astonishing-malabi-6da860.netlify.app/" target="_blank" className="relative group inline-block mx-8 my-4">
+    <img src={recipe} className="h-70 w-70 border-6 border-gray-700 transition-opacity duration-300 group-hover:opacity-50"></img>
+    <span className="absolute inset-0 flex items-center justify-center text-black text-xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      Deployed URL
+    </span>
     </a>
-    <div className="grid grid-cols-2 gap-2 my-6 w-70 mx-10">
+    <div className="grid grid-cols-2 gap-4 my-2 w-70 mx-6">
     <Link to="https://github.com/jeni-t/React_Api" target="_blank"
-       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend</Link>
+       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend Git</Link>
     <Link to ="https://github.com/jeni-t/Nodejs" target="_blank"
-    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend</Link>
+    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend Git</Link>
 </div>
 </div>
 
 <div className="py-10">
             <p className="text-center font-bold text-xl">Movie App</p>
-        <a href="https://startling-granita-02c1af.netlify.app/">
-    <img src={movie} className="my-4 mx-8 h-70 w-70 border-6 border-gray-700"></img>
+        <a href="https://startling-granita-02c1af.netlify.app/" target="_blank" className="relative group inline-block mx-8 my-4">
+    <img src={movie} className="h-70 w-70 border-6 border-gray-700 transition-opacity duration-300 group-hover:opacity-50"></img>
+     <span className="absolute inset-0 flex items-center justify-center text-black text-xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      Deployed URL
+    </span>
     </a>
-    <div className="grid grid-cols-2 gap-2 my-6 w-70 mx-26">
+    <div className="grid grid-cols-2 gap-4 my-2 w-70 mx-26">
     <Link to="https://github.com/jeni-t/Movie-App" target="_blank"
-       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend</Link>
+       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend Git</Link>
     {/* <Link to ="https://regal-sable-efac67.netlify.app/" target="_blank"
-    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend</Link> */}
+    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend Git</Link> */}
 </div>
 </div>
 
 <div className="py-10">
             <p className="text-center font-bold text-xl">Shopping Website</p>
-        <a href="https://unrivaled-boba-6958da.netlify.app/">
-    <img src={e_shopping} className="my-4 mx-8 h-70 w-70 border-6 border-gray-700"></img>
+        <a href="https://unrivaled-boba-6958da.netlify.app/" target="_blank" className="relative group inline-block mx-8 my-4">
+    <img src={e_shopping} className="h-70 w-70 border-6 border-gray-700 transition-opacity duration-300 group-hover:opacity-50"></img>
+    <span className="absolute inset-0 flex items-center justify-center text-black text-xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      Deployed URL
+    </span>
     </a>
-    <div className="grid grid-cols-2 gap-2 my-6 w-70 mx-26">
+    <div className="grid grid-cols-2 gap-4 my-2 w-70 mx-26">
     <Link to="https://github.com/jeni-t/React-Website" target="_blank"
-       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend</Link>
+       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend Git</Link>
     {/* <Link to ="https://regal-sable-efac67.netlify.app/" target="_blank"
-    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend</Link> */}
+    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend Git</Link> */}
 </div>
 </div>
 
 <div className="py-10">
             <p className="text-center font-bold text-xl">Shopping Website</p>
-        <a href="https://stately-smakager-aa768c.netlify.app/">
-    <img src={shopping} className="my-4 mx-8 h-70 w-70 border-6 border-gray-700"></img>
+        <a href="https://stately-smakager-aa768c.netlify.app/" target="_blank" className="relative group inline-block mx-8 my-4">
+    <img src={shopping} className="h-70 w-70 border-6 border-gray-700 transition-opacity duration-300 group-hover:opacity-50"></img>
+     <span className="absolute inset-0 flex items-center justify-center text-black text-xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      Deployed URL
+    </span>
     </a>
-    <div className="grid grid-cols-2 gap-2 my-6 w-70 mx-26">
+    <div className="grid grid-cols-2 gap-4 my-2 w-70 mx-26">
     <Link to="https://github.com/jeni-t/E-comShoppingWebsite" target="_blank"
-       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend</Link>
+       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend Git</Link>
     {/* <Link to ="https://regal-sable-efac67.netlify.app/" target="_blank"
-    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend</Link> */}
+    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend Git</Link> */}
 </div>
 </div>
 
 <div className="py-10">
             <p className="text-center font-bold text-xl">Budget App</p>
-        <a href="https://warm-bienenstitch-a3ff8d.netlify.app/">
-    <img src={Budget} className="my-4 py-4 mx-8 h-70 w-70 border-6 border-gray-700"></img>
+        <a href="https://warm-bienenstitch-a3ff8d.netlify.app/" target="_blank" className="relative group inline-block mx-8 my-4">
+    <img src={Budget} className="h-70 w-70 border-6 border-gray-700 transition-opacity duration-300 group-hover:opacity-50"></img>
+      <span className="absolute inset-0 flex items-center justify-center text-black text-xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      Deployed URL
+    </span>
     </a>
-   <div className="grid grid-cols-2 gap-2 my-6 w-70 mx-26">
+   <div className="grid grid-cols-2 gap-4 my-2 w-70 mx-26">
     <Link to="https://github.com/jeni-t/Budget-App" target="_blank"
-       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend</Link>
+       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend Git</Link>
     {/* <Link to ="https://regal-sable-efac67.netlify.app/" target="_blank"
-    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend</Link> */}
+    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend Git</Link> */}
 </div>
 </div>
 
 <div className="py-10">
             <p className="text-center font-bold text-xl">Memory Game App</p>
-        <a href="https://teal-meringue-9ea6ee.netlify.app/">
-    <img src={memory_game} className="my-4 mx-8 h-70 w-70 border-6 border-gray-700"></img>
+        <a href="https://teal-meringue-9ea6ee.netlify.app/" target="_blank" className="relative group inline-block mx-8 my-4">
+    <img src={memory_game} className="h-70 w-70 border-6 border-gray-700 transition-opacity duration-300 group-hover:opacity-50"></img>
+     <span className="absolute inset-0 flex items-center justify-center text-black text-xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      Deployed URL
+    </span>
     </a>
-    <div className="grid grid-cols-2 gap-2 my-6 w-70 mx-10">
+    <div className="grid grid-cols-2 gap-4 my-2 w-70 mx-26">
     <Link to="https://github.com/jeni-t/card_fip_JS" target="_blank"
-       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend</Link>
+       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend Git</Link>
     {/* <Link to ="https://regal-sable-efac67.netlify.app/" target="_blank"
-    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend</Link> */}
+    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend Git</Link> */}
+</div>
+</div>
+
+<div className="py-10">
+            <p className="text-center font-bold text-xl">coaching web page</p>
+        <a href="https://inspiring-crepe-d69567.netlify.app/" target="_blank" className="relative group inline-block mx-8 my-4">
+    <img src={Coaching} className="h-70 w-70 border-6 border-gray-700 transition-opacity duration-300 group-hover:opacity-50"></img>
+     <span className="absolute inset-0 flex items-center justify-center text-black text-xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      Deployed URL
+    </span>
+    </a>
+    <div className="grid grid-cols-2 gap-4 my-2 w-70 mx-26">
+    <Link to="https://github.com/jeni-t/coaching-web-page" target="_blank"
+       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend Git</Link>
+    {/* <Link to ="https://regal-sable-efac67.netlify.app/" target="_blank"
+    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend Git</Link> */}
+</div>
+</div>
+
+<div className="py-10">
+            <p className="text-center font-bold text-xl">Landing web page</p>
+        <a href="https://sunny-hotteok-98dc14.netlify.app/" target="_blank" className="relative group inline-block mx-8 my-4">
+    <img src={tour} className="h-70 w-70 border-6 border-gray-700 transition-opacity duration-300 group-hover:opacity-50"></img>
+     <span className="absolute inset-0 flex items-center justify-center text-black text-xl font-bold opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+      Deployed URL
+    </span>
+    </a>
+    <div className="grid grid-cols-2 gap-4 my-2 w-70 mx-26">
+    <Link to="https://github.com/jeni-t/landing_pages" target="_blank"
+       className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Frontend Git</Link>
+    {/* <Link to ="https://regal-sable-efac67.netlify.app/" target="_blank"
+    className="bg-[#0f172a] text-white font-bold text-lg py-4 rounded-lg text-center">Backend Git</Link> */}
 </div>
 </div>
    
