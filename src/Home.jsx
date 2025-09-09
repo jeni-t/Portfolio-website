@@ -15,7 +15,7 @@ return(
   <div className="absolute inset-0 flex flex-col items-start justify-center px-10 text-white">
     <h1 className="text-black text-4xl font-bold">Jenifer V</h1>
     <p className="text-black font-bold text-2xl mt-2">
-      3D Web Developer &
+      3D Software Developer &
     </p>
     <p className="text-black font-bold text-2xl mt-2">
        MERN Full Stack Developer
